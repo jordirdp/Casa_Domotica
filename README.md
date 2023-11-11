@@ -1,44 +1,62 @@
 # Título
-🔗Creado por [Jordi Rodriguez](https://github.com/jordirdp)  
+🔗Creado por [Jordi Rodriguez](https://github.com/jordirdp) a partir de un proyecto de Manu Sabio
 
 👨🏻‍💻Práctica de **programación básica** en Arduino  
     
 ### Software  
 - Programado con [Arduino](https://www.arduino.cc/en/software)
 - Se han incluido las siguientes librerías:  
--- [NewPing](https://bitbucket.org/teckel12/arduino-new-ping/src/master/)  
+-- Wire.h  
+-- Keypad.h  
+-- DHT.h & DHT_U.h  
+-- [Adafruit GFX](https://github.com/adafruit/Adafruit-GFX-Library)  
 -- [LiquidCrystal I2C](https://github.com/fdebrabander/Arduino-LiquidCrystal-I2C-library)  
 - Este código realiza las siguientes funciones simples:  
--- Lectura de sensores de línea  
--- Medición de distancia de obstáculo  
+-- Lectura de sensores domésticos   
+-- Control de la domótica del hogar (luces, climatización)  
+-- Control de seguridad del hogar (intrusión, inundación, incendio)  
+-- Información de estados mediante pantalla LCD  
 
 ### Hardware  
-- Arduino UNO  
-- Arduino Shield Sensor v.5.0
+- Arduino MEGA  
+- 8 x leds para habitaciones  
+- Led rojo + led azul para climatización
+- Led alarma
+- Sensor magnético para puerta
+- Sensor de llama
+- Sensor volumétrico
+- Buzzer
+- Sensor de agua
+- Sensor de temperatura y humedad (DHT11)
+- Pantala LCD 20x4
+- Keypad
+- Pulsador de emergencia
 
 ### Montaje  
-![Imagen](/Images/Imagen.jpeg)  
+![Imagen](/Images/Casa.jpg)  
 🔧Conexiones a pines Arduino UNO:  
-- A00 = Sensor ultrasonido-Echo (HC-SR04)  
-- A01 = Sensor ultrasonido-Trigger (HC-SR04)  
-- A02 = Sensor línea izquierda (TCRT5000)  
-- A03 = Fotosensor (LM393)  
 - A04 = I2C LCD (SDA)  
 - A05 = I2C LCD (SCL)  
-- D00 = (RX)
+- D00 = (RX)  
 - D01 = (TX)  
-- D02 = Led blanco derecho  
-- D03-= Led rojo derecho  
-- D04 = Sensor línea derecha   
-- D05-= ENB motor izquierdo  
-- D06-= ENA motor derecho  
-- D07 = IN1 motor derecho  
-- D08 = IN2 motor derecho  
-- D09-= IN3 motor izquierdo  
-- D10-= IN4 motor izquierdo  
-- D11-= Buzzer  
-- D12 = Led rojo izquierdo   
-- D13 = Led blanco izquierdo  
+- D02 = Led recibidor  
+- D03 = Led salon  
+- D04 = Led cocina  
+- D05 = Led baño  
+- D06 = Led habitación 1  
+- D07 = Led habitación 2  
+- D08 = Led habitación 3  
+- D09 = Led habitación 4  
+- D10 = Sensor magnético para puerta  
+- D11 = DHT11  
+- D12 = Sensor de llama  
+- D13 = Sensor volumétrico  
+- D14 = Zumbador  
+- D15 = Led de alarma  
+- D16 = Pulsador de emergencia  
+- D17 = Led rojo calefacción  
+- D18 = Led azul aire acondicionado
+- D19 = Sensor de inundación  
 
 ### Licencia  
 ⚖️Todo el contenido distribuido bajo [licencia GPL-3.0](https://www.gnu.org/licenses/gpl-3.0), salvo indicación expresa.  
