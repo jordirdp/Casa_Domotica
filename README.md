@@ -2,7 +2,9 @@
 🔗Creado por [Jordi Rodriguez](https://github.com/jordirdp) a partir de un proyecto de Manu Sabio
 
 👨🏻‍💻Práctica de **programación básica** en Arduino  
-    
+
+<img src="/Images/Casa.jpg" width="500"/> 
+
 ### Software  
 - Programado con [Arduino](https://www.arduino.cc/en/software)
 - Se han incluido las siguientes librerías:  
@@ -33,7 +35,9 @@
 - Pulsador de emergencia
 
 ### Montaje  
-![Imagen](/Images/Casa.jpg)  
+<img src="/Images/Construccion 1.jpg" height="300"/> <img src="/Images/Construccion 2.jpg" height="300"/>  <img src="/Images/Construccion 3.jpg" height="300"/>  
+<img src="/Images/Construccion 4.JPG" height="403"/> <img src="/Images/Construccion 5.JPG" height="403"/>  <img src="/Images/Construccion 6.JPG" height="403"/> 
+
 🔧Conexiones a pines Arduino UNO:  
 - A04 = I2C LCD (SDA)  
 - A05 = I2C LCD (SCL)  
