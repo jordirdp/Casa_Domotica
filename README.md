@@ -38,7 +38,7 @@
 <img src="/Images/Construccion 1.jpg" height="300"/> <img src="/Images/Construccion 2.jpg" height="300"/>  <img src="/Images/Construccion 3.jpg" height="300"/>  
 <img src="/Images/Construccion 4.JPG" height="403"/> <img src="/Images/Construccion 5.JPG" height="403"/>  <img src="/Images/Construccion 6.JPG" height="403"/> 
 
-🔧Conexiones a pines Arduino UNO:  
+🔧Conexiones a pines Arduino:  
 - A04 = I2C LCD (SDA)  
 - A05 = I2C LCD (SCL)  
 - D00 = (RX)  
