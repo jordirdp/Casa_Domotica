@@ -1,4 +1,4 @@
-# Título
+# arduino-home-automation
 🔗Creado por [Jordi Rodriguez](https://github.com/jordirdp) a partir de un proyecto de Manu Sabio
 
 👨🏻‍💻Práctica de **programación básica** en Arduino  
